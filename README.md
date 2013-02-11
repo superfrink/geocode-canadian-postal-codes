@@ -8,13 +8,13 @@ entering postal codes into a program one at a time to get the latitude and
 longitude.
 
 I figured there might be a module on CPAN. I wrote a short program using
-http://search.cpan.org/~jettra/Geo-Coder-Canada-0.01/ Geo::Coder::Canada
+Geo::Coder::Canada - http://search.cpan.org/~jettra/Geo-Coder-Canada-0.01/ -
 for him to use. It reads from STDIN so I just piped a CSV file he gave me
 into the program.
 
 The code finds the first postal code on each line of input so it's kind of
 smart when fed a full address or quotes around the postal code. A sample run
-looks like:<br>
+looks like:
 
     $ ./geocode-canada.pl
     
